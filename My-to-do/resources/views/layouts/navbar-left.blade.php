@@ -14,7 +14,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Chart</a>
+                        <a class="nav-link" href="#" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Services</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="#"  aria-expanded="false" data-target="#submenu-4" aria-controls="submenu-4"><i class="fas fa-power-off mr-2"></i>logout</a>

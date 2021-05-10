@@ -51,7 +51,7 @@ class CrudController extends Controller
         return view('edit', compact('post'));
     }
 
-    public function update(Learn $post){
+    public function upd(Learn $post){
 
         $update = request()->validate([
             
@@ -62,6 +62,7 @@ class CrudController extends Controller
 
         $post->update($update);
 
+        // dd($post);
         return redirect('/post')->with(['update' => 'Data berhasil telah disimpan']);
     }
 

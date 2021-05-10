@@ -1,3 +1,4 @@
+
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
         <div class="page-header">
@@ -8,11 +9,11 @@
                         <li class="breadcrumb-item"><a href="/" class="breadcrumb-link">Dashboard</a></li>
                         
                         <li class="breadcrumb-item">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="width: 85px;">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1" style="width: 85px;">
                                    <i class="fas fa-plus" style="font-size: 14px">Tambah</i>
                             </button>
                         </li>
-                        @include('modal-add')
+                        @include('layouts.modal-add')
                     </ol>
                 </nav>
             </div>

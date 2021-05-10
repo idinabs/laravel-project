@@ -14,7 +14,7 @@ Route::post('/post/create/', 'CrudController@create');
 
 // update data
 Route::get('/post/{post:slug}/edit', 'CrudController@edit');
-Route::patch('/post/{post:slug}/edit', 'CrudController@update');
+Route::patch('/post/{post:slug}/edit', 'CrudController@upd');
 
 
 Route::delete('post/{post:slug}/delete', 'CrudController@destroy');
